@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: B nazanin;
+    font-weight: 500;
+    font-size: 30px;
+    direction: rtl;
+}
+main{
+    width: 80%;
+    max-width: 795px;
+    margin:30px auto;
+    position: relative;
+    background: url("rock-paper-scissors-today-tease-160317.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+}
+button{
+    top: 10%;
+    position: absolute;
+    width: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 1;
+    visibility: visible;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgba(222, 184, 135, 0.65);
+}
+#start{
+    top: 10%;
+}
+.remove{
+    opacity: 0;
+    visibility: hidden;
+}
+button:hover{
+    background-color: rgb(157, 221, 247);
+}
+#two{
+    top: 20%;
+}
+#rock, #paper , #scissor{
+    top: 87%;
+    font-size: 18px;
+    width: 70px;
+    font-family: B yekan;
+    background-color: rgba(233, 150, 122, 0.808);
+    font-weight: normal;
+    text-align: center;
+   padding-bottom: 3px;
+   transition: 0.8s;
+}
+#rock{left: 60%;}
+#paper{left: 50%;}
+#scissor{left: 40%;}
+ #scissor:hover{background-color: darkseagreen;}
+ #paper:hover{background-color: darkseagreen;} 
+ #rock:hover{background-color: darkseagreen;}
+ #hemayat{
+    top: 86%;
+cursor: grab; 
+}
+a{
+    text-decoration: none;
+color: black;
+font-size: 22px;
+}
+ .player-1 , .player-2{
+    width: 50%;
+    float: left;
+    height: 450px;
+    padding: 50px;
+}
+.player-name {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+.player-score {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(253, 6, 88);
+    padding-bottom: 10px;
+}
+.score {
+    padding-top: 10px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.box-src {
+    margin-top: 40px;
+    background-color: rgba(222, 184, 135, 0.5);
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    height: 100px;
+}
+img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100px;
+    border-radius: 50px;
+}
+#rps-1{
+    top: 50%;
+    left: 25%;;
+}
+#rps-2{
+    top: 50%;
+    left: 75%;;
+}
+#final{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(214, 97, 97);
+    color: white;
+    font-size: 20px;
+    width: 90px;
+    text-align: center;
+    border-radius: 20px;
+}
+.CustomScore{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);            
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: transparent;
+}
+.CustomScore:focus{
+    outline: none;
+}
+#finalc{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: yellowgreen;
+    color: white;
+    font-size: 22px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+}
+#bazghast{
+    left: 88%;
+    top: 95%;
+    font-size: 14px;
+    background-color: rgba(222, 184, 135, 0.575);
+}
+
+#add{
+    width: 450px; 
+    height: 200px;
+    border: 1px solid rgb(141, 101, 0);
+    position: fixed;
+    top: 34%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 2px #aaa;
+}
+header{
+    padding: 5px;
+    border-bottom: 1px solid burlywood;
+    background-color: goldenrod;
+    font-weight: bold;
+    font-size: 22px;
+    user-select: none;
+    text-align: center;
+}
+span{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    display: block;
+    padding: 60px;
+}
+#add button{
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    position: absolute;
+    right: 0%;
+    top: 5%;
+    color: #fff;
+    background-color: rgb(139, 139, 255);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.5s; 
+
+}
+#add button:hover{
+    background-color: white;
+    color: rgb(139, 139, 255);
+}
